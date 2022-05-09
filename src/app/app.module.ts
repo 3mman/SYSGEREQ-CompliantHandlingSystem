@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDialogModule} from '@angular/material/dialog';
+import { DialogComponent } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     RequestsComponent,
     StudentsComponent,
     CoursesComponent,
+    DialogComponent,
    
   ],
   imports: [
