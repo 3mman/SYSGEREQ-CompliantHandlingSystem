@@ -7,18 +7,24 @@ import { RequestsComponent } from './requests/requests.component';
 import { StudentsComponent } from './students/students.component';
 import { CoursesComponent } from './courses/courses.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
     AppComponent,
     RequestsComponent,
     StudentsComponent,
-    CoursesComponent
+    CoursesComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatToolbarModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
