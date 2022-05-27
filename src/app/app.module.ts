@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
+import { ResponsesComponent } from './responses/responses.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DialogComponent } from './dialog/dialog.component';
     StudentsComponent,
     CoursesComponent,
     DialogComponent,
+    ResponsesComponent,
    
   ],
   imports: [

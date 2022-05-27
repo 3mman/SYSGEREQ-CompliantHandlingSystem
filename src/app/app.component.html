@@ -7,19 +7,12 @@
           </button>
           <span> ENSTP SYSGEREQ</span>
           <span class="example-spacer"></span>
-          <button mat-raised-button color="warn" (click)="openDialog()">Add Requests</button>
+          <button mat-raised-button color="warn" (click)="openDialog()">Response</button>
+          <button mat-raised-button color="warn" (click)="openrequestDialog()">Add Requests</button>
+          <button mat-raised-button color="warn" (click)="openstudentDialog()">Add Student</button>
+          <button mat-raised-button color="accent" (click)="opencourseDialog()">Add Course</button>
         </mat-toolbar>
       </p>
-    <h1>Welcome, Fill in your Requests</h1>
-    
-    <div style="color: rgb(1, 1, 19);">
-        <app-students></app-students>
-       </div>
- <div style="font-size: larger;">
-    <app-requests></app-requests>  
- </div>
-  
- <div style="color: blue;">
-  <app-courses></app-courses>
- </div>
+    <h1>Welcome, Enter Student Requests With SYSGEREQ</h1>
+
 </html>
